@@ -1,4 +1,4 @@
-package com.example.app;
+package cn.edu.bjtu.hardsphere;
 
 import com.getcapacitor.BridgeActivity;
 
