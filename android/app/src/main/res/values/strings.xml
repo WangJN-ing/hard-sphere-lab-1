@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">HSMS2</string>
-    <string name="title_activity_main">HSMS2</string>
+    <string name="app_name">硬球模拟3</string>
+    <string name="title_activity_main">硬球模拟3</string>
     <string name="package_name">cn.edu.bjtu.hardsphere</string>
     <string name="custom_url_scheme">cn.edu.bjtu.hardsphere</string>
 </resources>
