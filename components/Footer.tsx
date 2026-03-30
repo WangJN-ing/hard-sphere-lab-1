@@ -84,7 +84,7 @@ const Footer: React.FC<FooterProps> = ({ t, lang, showNotification, supportsHove
 
   const handleEmailClick = async (e: React.MouseEvent) => {
     e.preventDefault();
-    const email = '3381173206@qq.com';
+    const email = '3894082771@qq.com';
 
     try {
       await copyTextToClipboard(email);
