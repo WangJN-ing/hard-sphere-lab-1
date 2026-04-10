@@ -3,6 +3,7 @@
 buildscript {
     
     repositories {
+        maven { url uri("$rootDir/local-maven") }
         google()
         mavenCentral()
     }
@@ -19,8 +20,15 @@ apply from: "variables.gradle"
 
 allprojects {
     repositories {
+        maven { url uri("$rootDir/local-maven") }
         google()
         mavenCentral()
+    }
+
+    configurations.all {
+        resolutionStrategy.force "androidx.core:core-splashscreen:${rootProject.ext.coreSplashScreenVersion}"
+        resolutionStrategy.force "org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.2.0"
+        resolutionStrategy.force "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.0"
     }
 }
 
