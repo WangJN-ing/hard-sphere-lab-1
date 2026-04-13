@@ -202,7 +202,7 @@ const Footer: React.FC<FooterProps> = ({
                   <div className={`rounded-full bg-slate-700/50 p-2 text-slate-300 transition-colors ${supportsHover ? 'group-hover:text-white' : ''}`}>
                     <GraduationCap size={16} />
                   </div>
-                  <span className="text-sm font-medium text-white">齐敬强 (Qi Jingqiang)</span>
+                  <span aria-hidden="true" className="block h-[1.25rem] flex-1" />
                 </div>
               </div>
 
@@ -221,7 +221,7 @@ const Footer: React.FC<FooterProps> = ({
               <h3 className={headerStyle}>{t.footer.links}</h3>
               <div className={linksListClass}>
                 <a
-                  href="https://github.com/WangJN-ing/hard-sphere-lab"
+                  href="https://github.com/WangJN-ing/hard-sphere-lab-1"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={linkItemClass}
